@@ -1,0 +1,28 @@
+.main-input{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+input{
+    outline: none;
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 40%;
+    border: 1px solid rgb(142, 206, 248);
+    border-radius: .2rem 0 0 .2rem;
+}
+button{
+    outline: none;
+    font-size: 1.2rem;
+    padding: .5rem 1rem ;
+    border: 1px solid rgb(142, 206, 248);
+    background-color: rgb(142,206,248);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 0 .2rem .2rem 0;
+}
+button:hover{
+    background-color: rgb(118, 197, 250) ;
+}
+button:focus{
+    background: rgb(118, 197, 250);
+}
