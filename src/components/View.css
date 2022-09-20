@@ -1,0 +1,87 @@
+.main-div{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    border-radius: .2rem;
+    margin-top: 4rem;
+    border-radius: .2rem;
+    box-shadow: 1px 2px 13px 1px rgb(153, 146, 146);
+}
+.logo{
+    padding: .2rem;
+    color: rgb(142,206,248);
+    border-radius: .2rem .2rem 0 0;
+}
+.logo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1 span{
+    font-size: 4rem;
+}
+.city-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.temp{
+    background: rgb(142,206,248);
+    width: 30%;
+    border-radius: 0 .2rem 0 .2rem;
+    padding: 1rem;
+}
+.temp h2{
+    margin: 0;
+    padding: 0;
+}
+.temp p{
+    margin: 0.58rem;
+    padding: 0;
+}
+.city-detail h1{
+    margin: 0;
+    padding: 0;
+}
+.city-detail p{
+    margin: 0;
+    padding: 0;
+}
+.date-time{
+    background: rgb(142,206,248);
+    border-radius: .2rem 0 .2rem 0;
+    width: 30%;
+}
+.weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: rgb(142,206,248);
+    height: 15vh;
+    padding-left: 2rem;
+    border-radius:.2rem;
+    padding-right: 2rem;
+}
+.speed{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .2rem;
+   
+}
+.icon{
+    padding: .2rem;
+    font-size: 2rem;
+}
+.speed-info{
+    padding: .2rem;
+    text-align: left;
+}
+.weather p{
+    margin: 0;
+    font-size: .8rem;
+}
+.weather h4{
+    margin: 0;
+}
